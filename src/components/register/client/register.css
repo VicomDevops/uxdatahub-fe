@@ -1,0 +1,71 @@
+.modal-title{
+    margin: auto;
+    color: #00a359; 
+}
+.modal-header .close{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.btn_modal_ctn{
+    width: max-content;
+    margin: auto;
+}
+.modal__form{
+    width: 75%;
+    margin: auto;
+}
+.btn__form__modal {
+    background: #00a359 !important;
+    color: white !important;
+    border: none !important;
+    padding: 7px 15px !important;
+    border-radius: 10px !important;
+    font-size: 1.1em !important;
+    margin-top: 1rem !important;
+    font-family:   sans-serif; 
+    min-width: 10em;
+}
+.btn__form__modal:hover {
+    /* background-color: #03c56e  !important; */
+    box-shadow:0 5px 20px rgba(0, 35, 49, 0.2) !important ;
+    color: white;
+  }
+  .redirect__signup{
+    border-radius: 5px;
+    background-color: #f3fbf7;
+    padding: 1em;
+  }
+  .MuiToolbar-gutters {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+.conditions_text{
+    color: #63acf0;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.textError{
+    font-size: 0.7em;
+    color: red;
+    margin-top: 0.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.react-tel-input .form-control {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 48px;
+    margin-left: 0;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 10px !important;
+    line-height: 25px;
+    height: 35px;
+    width: 328px !important;
+    outline: none;
+}

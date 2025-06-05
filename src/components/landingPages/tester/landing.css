@@ -1,0 +1,348 @@
+.landing_container{
+    width: 100%;
+    height: 100%;
+    background-color: #F4F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 1rem;
+}
+
+.landing_container__header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1.2rem;
+}
+
+.landing_title{
+    font-size: 24px;
+    font-weight: 600;
+    color: #00A359;
+    line-height: 28px;
+    margin-bottom: 2rem;
+}
+
+.landing_container__body{
+    width: 100%;
+    display: flex;
+    gap: 1.8rem;
+    margin-left: 1rem;
+}
+
+.landing_container__body__left{
+    width: 350px;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+.left_setions{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.isActive{
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+}
+
+.landing_container__body__right{
+    width: 100%;
+    min-height: 28rem;
+    align-items: flex-start;
+    padding-right: 4rem;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.landing_from{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.label_input{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    max-width: 100%;
+    min-width: 350px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.label_input_client{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19px;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    max-width: 100%;
+    min-width: 350px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.label_input_multiple{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-top: -95px;
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    max-width: 100%;
+    min-width: 350px;
+}
+
+.label_input_infoDP{
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 0.5rem;
+    max-width: 80%;
+    min-width: 50%;
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+
+.label_input_checkbox{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    background-color: #F4F7F7;
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    padding-bottom: .8rem;
+    margin: 0 !important;
+}
+
+.AV_landing_input{
+    width: 23.3rem !important;
+    border-radius: 150px !important;
+}
+
+.column-left{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+
+.column-left_client{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+
+.row_form_client{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    width: 100%;
+    gap: 4.4rem;
+}
+
+.column-left-form{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    background-color: #F4F7F7;
+}
+
+.form-control.is-invalid{
+    border-color: #FF0000 !important;
+    background-color: #F4F7F7 !important;
+}
+
+.radio_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+}
+
+.conditionGenerale{
+    color: dodgerblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.condition_form{
+    display: flex !important;
+    justify-content: flex-start !important;
+}
+
+
+.radio_form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80%;
+    font-size: 12px !important;
+    
+}   
+
+.radio_form_grp{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #F4F7F7;
+    width: 100%;
+    padding-left: 2rem;
+}
+
+
+.label_condition{
+    width: 80%;
+}
+
+.landing_input{
+    width: 23.3rem !important;
+    border-radius: 120px !important;
+    height: 50px !important;
+}
+
+.landing_input_client{
+    width: 29.5rem !important;
+    border-radius: 15px !important;
+    height: 40px !important;
+}
+
+
+.css-1s2u09g-control{
+    width: 100% !important;
+    text-align: left;
+    padding-left: .5rem;
+}
+
+.css-1pahdxg-control{
+    width: 100% !important;
+    text-align: left;
+    padding-left: .5rem;
+}
+
+.landing_input_multi{
+    width: 23.3rem !important;
+    border-radius: 10px !important;
+}
+
+.position{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.landing_input_lastLine{
+    width: 23.3rem !important;
+    border-radius: 80px !important;
+}
+
+.containerInfoDP{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    gap: 1rem;
+}
+
+.label_famille{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.label_plus_moins{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label_famille_text{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+.form_row{
+    display: flex;
+    align-items: flex-end;
+}
+
+.plus{
+    width: 50px;
+    height: 50px;
+    color: #000;
+    font-size: 36px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.moins{
+    width: 50px;
+    height: 50px;
+    color: #000;
+    line-height: 40px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.footer{
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 1rem;
+}
+
+.footer_form_client{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.client_footer{
+    width: 100%;
+    display: flex;
+    padding-top: 3rem;
+    gap: 3rem;
+}
+
+
+@media screen and (min-width: 1300px) {
+    .label_input{
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width : 1500px) {
+    .landing_input{
+        width: 20.3rem !important;
+    }
+    .AV_landing_input{
+        width: 20.3rem !important;
+    }
+    .landing_input_multi{
+        width: 20.3rem !important;
+    }
+}

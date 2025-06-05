@@ -1,0 +1,312 @@
+.container_iban{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.iban_title{
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #00A359;
+    line-height: 32px;
+    margin: 2.3rem 0;
+    font-family: 'Roboto' , sans-serif !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.iban_modifier{
+    color: #0900EF;
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: underline;
+    margin-left: 2rem;
+    font-family: 'Roboto' , sans-serif !important;
+    cursor: pointer;
+}
+
+.container_iban__content{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    gap: 1rem;
+}
+
+.iban_form_label{
+    font-size: 15px;
+    font-weight: 500 !important;
+    font-family: 'Roboto' , sans-serif !important;
+}
+
+
+
+.container_iban__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    background-color: #F4F7F7;
+    line-height: 2rem;
+
+}
+
+
+.iban_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 200%;
+    padding: 1rem .7rem;
+}
+
+.iban_form_title{
+    color: #00A359;
+    margin-left: 2rem;
+    font-family: 'Roboto' , sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 26px;
+}
+
+.iban_input{
+    width: 100% !important;
+    border-radius: 13px !important;
+    font-family: 'Roboto', sans-serif !important;
+    border: 1px solid #ffffff00 !important;
+}
+
+.iban_double{
+    margin-left: .1rem !important;
+    margin-right: .1rem !important;
+}
+
+.container_iban__right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2rem;
+}
+
+.iban_contrat{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 35%;
+    background-color: #F4F7F7;
+    font-family: 'Roboto' , sans-serif !important;
+}
+.iban_contrat_client{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 5px !important;
+    background-color: #F3FBF7;
+    font-family: 'Roboto' , sans-serif !important;
+}
+
+
+
+
+.iban_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 35%;
+    background-color: #F4F7F7;
+    font-family: 'Roboto' , sans-serif !important;
+}
+
+.iban_facture{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-height: 40%;
+    background-color: #F4F7F7;
+    font-family: 'Roboto' , sans-serif !important;
+}
+
+.iban_facture_client{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 5px !important;
+    width: 100%;
+    height: 10.7rem;
+    background-color: #F3FBF7;
+    font-family: 'Roboto' , sans-serif !important;
+}
+
+.iban_contrat_title{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    font-weight: 500;
+    color: #00A359;
+    line-height: 32px;
+    padding: 1.3rem 2rem;
+    font-family: 'Roboto' , sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 24px;
+}
+
+.iban_contrat_title_client{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    color: #00A359;
+    padding: 1.3rem 0;
+    font-family: 'Roboto' , sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 26px;
+}
+
+.iban_section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 2.5rem;
+    margin-bottom: 1rem;
+    gap: 1.5rem;
+    font-family: 'Roboto' , sans-serif !important;
+}
+
+.iban_section_client{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 2.5rem;
+    margin-bottom: 1rem;
+    gap: 1.5rem;
+    font-family: 'Roboto' , sans-serif !important;
+}
+
+.iban_contrat_content{
+    width : 40px;
+    height: 40px;
+}
+
+.iban_contrat_content_client{
+    width : 40px;
+    height: 38px;
+}
+
+.iban_img{
+    width: 100%;
+    height: 100%;
+}
+
+.iban_text{
+    font-size: 14px;
+    font-weight: 300;
+    color: #0800efd2;
+    line-height: 14.06px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'Roboto' , sans-serif !important;
+}
+
+.iban_text_client{
+    font-size: 14px;
+    font-weight: 300;
+    color: #0800efd2;
+    line-height: 14.06px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'Roboto' , sans-serif !important;
+    width: 15rem !important;
+    text-align: left !important;
+}
+
+.iban_facture_section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: scroll;
+    flex-wrap: wrap;
+    column-gap: 4.5rem;
+    row-gap: 1rem;
+    padding: .5rem .5rem .5rem 4.5rem;
+    font-family: 'Roboto' , sans-serif !important;
+}
+
+.iban_facture_section_client{
+    display: flex;
+    overflow: scroll;
+    flex-wrap: wrap;
+    column-gap: 4.5rem;
+    row-gap: 1rem;
+    padding-top: .5rem;
+    padding-left: 3rem;
+    font-family: 'Roboto' , sans-serif !important;
+}
+
+.iban_facture_section_client_vide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.iban_facture_date{
+    font-size: 14px;
+    font-weight: 500;
+    color: #0800efd3;
+    font-weight: 300;
+    line-height: 14.06px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'Roboto' , sans-serif !important;
+}
+
+.iban_facture_annee_select{
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000d3;
+    line-height: 14.06px;
+    text-decoration: none;
+    border: none;
+    background-color: #F4F7F7;
+    cursor: pointer;
+    font-family: 'Roboto' , sans-serif !important;
+}
+
+.btn-iban-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-iban{
+    background-color: #00A359 !important;
+    font-size: 16px !important;
+    color: #ffffff;
+    line-height: 14.06px !important;
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif !important;
+    margin: 1.5rem 0;
+}

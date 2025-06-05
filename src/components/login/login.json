@@ -1,0 +1,29 @@
+{
+    "En": {
+      "login": "Login",
+      "forgetText": "Forgot your password ?",
+      "password": "Password",
+      "email": "Email ",
+      "error_msg": "Invalid e-mail or password",
+      "header": "Sign into your account",
+      "footer1": "By clicking on \"Login\", you agree to the terms of the Insight Data",
+      "footer2": "Privacy Policy",
+      "footer3": "",
+      "createText": "Create an account",
+      "trial" : "Became a customer"
+    },
+    "Fr": {
+      "login": "Connexion",
+      "forgetText": "Mot de passe oublié ?",
+      "password": "Mot de passe",
+      "email": "Email",
+      "error_msg": "e-mail ou mot de passe invalid",
+      "header": "Connectez vous à votre compte",
+      "footer1": "En cliquant sur \"Connexion\",  vous acceptez",
+      "footer2": "la politique de confidentialité ",
+      "footer3": "d’Insight Data",
+      "createText": "Créer un compte",
+      "trial" : "Devenir un client"
+    }
+  }
+  

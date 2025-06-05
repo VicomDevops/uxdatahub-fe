@@ -1,0 +1,228 @@
+.rapport-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 99%;
+    height: auto;
+    gap: 1rem;
+}
+
+.rapport-content{
+    width: 97%;
+    height: auto;
+    border: 1px solid #000;
+    padding: 2rem 7rem;
+    margin-left:1.2rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.rapport-header{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.rapport-header .content{
+    display: flex;
+    width: 100%;
+    gap: 3rem;
+}
+
+.rapport-header .content .rapport-label{
+    font-weight: 600;
+    font-size: 1rem;
+    width: 4rem;
+
+    text-align: left;
+}
+
+.rapport-header .content .rapport-title{    
+    display: flex;
+    flex: 1;
+    justify-items: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.rapport-header .content .color-white{
+    background-color: whitesmoke;
+}
+
+.rapport-header .content .color-blue{
+    background-color: rgba(107, 190, 218, 0.26);
+}
+
+/* RAPPORT RECOMMANDATIONS */
+
+.rapport-recommandations{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.rapport-recommandations .rapport-recommandation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.rapport-recommandations .rapport-recommandation-content{    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+.rapport-section-title{
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.rapport-recommandation-content .rapport-recommandation-text{
+    border: 1px solid #00A359;  
+    padding: .5rem;
+    text-align: left;
+    width: 100%;
+}
+
+.rapport-recommandations .rapport-score{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.rapport-recommandations .bg-light-green{
+    border: 2px solid #00A359;
+}
+
+.rapport-recommandations .bg-colors-wihte{
+    background-color: whitesmoke;
+    border: 2px solid gray;
+}
+
+.rapport-recommandations .rapport-score .rapport-score-title{
+    font-weight: 600;
+    font-size: .75rem;
+    width: 6rem;
+    margin-top: .5rem;
+}
+
+.rapport-recommandations .rapport-score .rapport-score-value{
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Analyse */
+
+.retours-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.rapport-constats{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.rapport-constat{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 6rem;
+}
+
+.rapport-section-subtitle{
+    margin-top: 1.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    text-align: left;
+}
+
+
+.rapport-constats .rapport-constat-title{
+    font-weight: 500;
+    width: 6rem;
+}
+.rapport-constats  .rapport-constat-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.rapport-constats  .rapport-constat-content .rapport-constat-answer{
+    margin-left: 4rem;
+    color: #00A359;
+    font-size: .95rem;
+    font-weight: lighter;
+}
+
+/* RESPONSES */
+.responses-container{
+    width: 100%;
+
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.table-header {
+    text-align: left;
+    background-color: "#f2f2f2";
+    border: 1px solid #00A359;
+    padding: .5rem;
+}
+.table-cell {
+    border: 1px solid #00A359;
+    text-align: left;
+    padding: .3rem;
+}
+.evenRow{
+    background-color: "#f9f9f9",
+}
+.oddRow{
+    background-color: "#fff";
+}
+
+.table-response-container{
+    margin-top: 1rem;
+}
+
+.table-response-container table{
+    border-collapse: collapse;
+    border: 1px solid rgba(1, 90, 255, 0.568);
+    min-width: 50rem;
+    width: 100%;
+}
+
+.rapport-duree{
+    height: 100%;
+}
+
+
+.concret-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

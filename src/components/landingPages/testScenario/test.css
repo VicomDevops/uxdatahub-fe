@@ -1,0 +1,7 @@
+.zoom-70 {
+    zoom: 0.7;
+    -moz-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    transform-origin: 0 0;
+  }

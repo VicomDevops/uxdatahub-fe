@@ -1,0 +1,609 @@
+.pdf-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.preaudit-container {
+  display: flex;
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding-top: 5rem;
+}
+
+.audit-container {
+  display: flex;
+  width: 75rem;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  height: 80rem;
+  padding-top: 6rem;
+}
+
+.left-container {
+  display: flex;
+  width: 50%; 
+}
+.left-section {
+  display: flex;
+  flex: 2.5;
+}
+
+
+.content-left-side{
+  display: flex;
+  gap: 1rem;
+}
+.section-left-side{
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+}
+.client-info-sectio{
+  width: 100%;
+}
+
+.green-bar {
+  background-color: #04b464;
+  border: 5px solid #d1f0d4;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.preaudit-bar{
+  width: 16rem;
+  height: 46rem;
+}
+.audit-bar{
+  width: 5rem;
+  height: 49rem;
+}
+
+.bar-vertical-text {
+  position: absolute;
+  color: white;
+  font-size: 48px;
+  letter-spacing: 5px;
+
+  transform: rotate(-90deg);
+  width: 40rem;
+}
+
+.recommendation-list{
+  margin-left: -1.5rem;
+}
+.argument{
+  color: #00a359;
+}
+
+
+
+.content-container {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.section-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5rem;
+}
+
+.header h3 {
+  color: #00a359;
+}
+
+.logoPDF-container{
+  position: relative;
+  width: 11rem;
+  height: 4.4rem;
+}
+
+
+.logoPDF-container img {
+  width: 100%;
+  height: 100%;
+  -webkit-user-drag: none;
+}
+
+h1 {
+  color: #00a359;
+}
+
+.client-info-container{
+  position: relative;
+  display: flex;
+  background-color: #e8f5e9;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.client-info {
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap : .5rem;
+}
+
+
+.ux-score {
+  position: absolute;
+  top: -28px;
+  right: -28px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 20px;
+  border : 3px solid #00a359;
+  border-radius: 50%;
+  padding: .5rem;
+  background-color: #ffffff;
+}
+
+.ux-score p {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.score-circle {
+  width: 120px;
+  height: 100px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #7f8b8a;
+  font-size: 18px;
+}
+
+.circle-text{
+  color: #272828;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.circle-note{
+  color: #00a359;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.main-content {
+  margin-top: 20px;
+}
+
+.main-points{
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.5;
+  height: 6.5rem;
+}
+
+.description_avantages{
+  font-size: 14px;
+  height: 4rem;
+  text-align: start;
+}
+
+
+.strengths,
+.improvements {
+  position: relative;
+  padding: 1rem .5rem 0 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.strengths {
+  background-color: #e8f5e9;
+  min-height: 12.5rem;
+}
+
+.improvements {
+  background-color: #ffebee;
+  min-height: 12.5rem;
+}
+
+.strengths h4,
+.improvements h4 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.strengths h4 {
+  color: #00a359;
+}
+
+.improvements h4 {
+  color: #f44336;
+}
+
+.strengths ul, 
+.improvements ul {
+  list-style-type: none;
+  padding-left: 0; 
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.strengths li, 
+.improvements li {
+  position: relative;
+  padding-left: 20px;
+  text-align: start;
+}
+
+.strengths li::before, 
+.improvements li::before {
+  content: "■";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  font-size: 0.5em;
+}
+
+.strengths li::before {
+  color: #00a359; 
+}
+
+.improvements li::before {
+  color: #f44336; 
+}
+.section-title{
+  text-align: start;
+  font-size: 1.2rem;
+}
+.section-title-strengths{
+  color: #00a359;
+}
+.section-title-improvements{
+  color: #f44336;
+}
+
+.client .link{
+  color: #000;
+  text-decoration: none;
+}
+
+
+.client-info .client{
+  display: flex;
+}
+
+.spanTitleWidth{
+  display: flex;
+  width: 6.5rem !important;
+  text-align: start;
+  font-weight: bold;
+}
+
+.textStyle{
+  text-align: start;
+  text-transform: capitalize;
+}
+
+.right-container {
+  width: 75%; 
+  padding: 1.5rem 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.right-section {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.main-image-container{
+  width: 100%;
+  height: 100%;
+  -webkit-user-drag: none;
+  margin: 2rem 0;
+}
+.main-image-container img{
+  width: 100%;
+  height: 80%;
+  -webkit-user-drag: none;
+}
+
+.preconisation{
+  color: #00a359;
+}
+
+.main-image{
+  width: 99.3%;
+  height: 26rem;
+} 
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+  -webkit-user-drag: none;
+}
+
+.recommendations {
+  width: 100%;
+  background-color: #ffffff;
+  border: .5px solid #e1e1e1;
+  padding: 5px 5px 0 5px;
+  min-height: 26.05rem;
+}
+
+.recommendations h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.recommendations ul {
+  padding-left: 2px;
+  list-style-type: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.recommendations ul li {
+  text-align: start;
+  font-size: .84rem;
+  line-height: 1.7;
+  display: flex;
+  align-items: flex-start;
+  gap: .5rem;
+}
+
+.recommendations ul li .roman-number {
+  color: #028d4e !important; 
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+
+.competitor-analysis {
+  width: 90%;
+  background-color: #ffffff;
+  border: .5px solid #e1e1e1;
+  padding :  5px 5px 0 5px;
+  display: flex;
+  flex-direction: column;
+  min-height: 26.05rem;
+  gap: 1rem;
+}
+.right-content{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap : .5rem;
+  padding-right: .3rem;
+}
+.competitor-analysis h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.competitor-score{
+  color: #00a359; 
+  font-weight: 500;
+  border-bottom: 1px solid black;
+  padding-bottom: 1.5px; 
+  display: inline-block;
+}
+
+.competitor {
+  text-align: start;
+  min-height: 7rem;
+}
+
+.competitor p {
+  font-size: 14px;
+}
+
+
+.competitor-icon img{
+  width: 13%;
+  -webkit-user-drag: none;
+}
+
+.competitor-title{
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+.competitor-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.competitor-note{
+  display: flex;
+  gap: 1.5rem;
+  padding-right: .3rem;
+}
+
+.ux-note {
+  font-weight: 500;
+  color: #000;
+}
+
+.main-content-container{
+  padding: 20px; 
+  font-family: 'Arial, sans-serif';
+  line-height: 1.6;
+  border: 1px solid #e1e1e1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  height: 40rem;
+}
+.iconStyleContainer{
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  z-index: 1;
+}
+
+.iconStyle{
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.iconStyleRightSide{
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.iconStyleRightSide img {
+  width: 100%;
+  height: 100%;
+  -webkit-user-drag: none;
+}
+
+.iconStyle img{
+  width: 100%;
+  height: 100%;
+  -webkit-user-drag: none;
+}
+
+.section-title-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .5rem;
+}
+.form-audit-container{
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.container-file{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.concurrence-title{
+  color: #f44336;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.competitor-description{
+  text-align: start;
+  line-height: 1.8;
+  padding-left: 1.5rem;
+  font-size: .85rem;
+}
+
+.form-label-title{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.form-section{
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.text-black{
+  color: #000;
+}
+
+
+@media screen and (max-width: 1600px) {
+  .recommendations {
+    min-height: 27.9rem;
+    max-height: 28.9rem;
+  }
+
+  .competitor-analysis {
+    min-height: 28.9rem;
+    max-height: 28.9rem;
+  }
+}
+
+
+
+
+
+
+/* BTN FILE */
+.container-btn-file {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: #307750;
+  color: #fff;
+  border-style: none;
+  padding: .5em 2em;
+  border-radius: 0.5em;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 4px 8px 10px -3px rgba(0, 0, 0, 0.356);
+  transition: all 250ms;
+}
+
+.container-btn-file input[type="file"] {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.container-btn-file > svg {
+  margin-right: 1em;
+}
+
+.container-btn-file::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0;
+  border-radius: 0.5em;
+  background-color: #469b61;
+  z-index: -1;
+  transition: all 350ms;
+}
+
+.container-btn-file:hover::before {
+  width: 100%;
+}

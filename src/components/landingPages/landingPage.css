@@ -1,0 +1,49 @@
+.landing__ctn {
+  width: 99%;
+  /*margin-left: -4em;*/
+  /* margin-top: 1rem; */
+  background-color: white;
+  border-radius: 15px;
+}
+.MuiIconButton-root {
+  padding: 0 !important;
+}
+.question_dyn {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  z-index: 100;
+}
+.landing__client_tester {
+  width: 98%;
+  /* margin-top: 6em; */
+  position: absolute;
+  top: 20px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.testDone{
+  background: grey !important;
+    color: white !important;
+    border: none !important;
+    padding: 4px 3px !important;
+    border-radius: 50% !important;
+    font-size: 16px !important;
+    font-family:   sans-serif;     
+}
+
+.testReady{
+  background: #00A359 !important;
+    color: white !important;
+    border: none !important;
+    padding: 4px 3px !important;
+    border-radius: 50% !important;
+    font-size: 16px !important;
+    font-family:   sans-serif;     
+}
+
+.disabledBtn{
+  cursor: not-allowed !important;
+}
+

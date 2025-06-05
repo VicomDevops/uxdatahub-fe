@@ -1,0 +1,81 @@
+{
+  "enquette": [
+    {
+      "questionNum": 1,
+      "questionTitle": "Question 2 : Résoudre cette analogie : La raquette est au tennis ce que le … est au foobtall.",
+      "isMultipleResponse": false,
+      "responses": [
+        "Le filet",
+        "La ligne",
+        "Le ballon",
+        "Le gardien",
+        "Je ne sais pas"
+      ]
+    },
+    {
+        "questionNum": 2, 
+        "questionTitle": "Question 3 : Quel est le nombre manquant dans cette série ?    7    15    23    ???    39    47",
+        "isMultipleResponse": true,
+        "responses": [
+          "31",
+          "37",
+          "44",
+          "57"
+        ]
+      },
+      {
+        "questionNum": 3, 
+        "questionTitle": "Question 5 : Parmi les mots suivants, lequel était dans la liste des réponses de la question précédente ?",
+        "isMultipleResponse": false,
+        "responses": [
+          "sens",
+          "motif",
+          "crème",
+          "moyen"
+        ]
+      },
+      {
+        "questionNum": 4, 
+        "questionTitle": "Question 6 : Avez-vous une fonction managériale au sein de votre entreprise ?",
+        "isMultipleResponse": false,
+        "responses": [
+          "je n'ai pas de fonction de management",
+          "je suis un chef d'équipe(1 à 5 personnes)",
+          "je suis un responsable de pole(6 à 15 personnes)",
+          "je suis un directeur (plus que 16 personnes)"
+        ]
+      },
+      {
+        "questionNum": 5, 
+        "questionTitle": "Question 7 : Avez-vous déjà passé ce test auparavant ?",
+        "isMultipleResponse": false,
+        "responses": [
+          "oui",
+          "non",
+          "je ne sais pas"
+        ]
+      },
+      {
+        "questionNum": 6, 
+        "questionTitle": "Question 8 : Quel budget accepteriez-vous d'engager pour vos prochaines vacances ?",
+        "isMultipleResponse": false,
+        "responses": [
+          "Aucun budget vacances",
+          "Entre 0 et 500 euros par personne",
+          "Enter 501 et 1000 euros par personne",
+          "Plus que 1000 euros par personne",
+          "Je ne sais pas"
+        ]
+      },
+      {
+        "questionNum": 7, 
+        "questionTitle": "Question 14 : Vous êtes au casino avec 100 euros en poche. Vous venez de perdre 90 euros. Que faites vous des 10 euros restants ?",
+        "isMultipleResponse": false,
+        "responses": [
+          "Vous pariez sur les 'Noirs' ? (Possibilité de multiplier ses gains par 2)",
+          "Vous pariez sur le numéro '6' ? (Possibilité de multiplier ses gains par 35)"
+
+        ]
+      }
+  ]
+}

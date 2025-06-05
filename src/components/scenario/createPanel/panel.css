@@ -1,0 +1,11 @@
+.panelModalButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.detacherTesterNote{
+    text-align: center;
+    margin: 0 3rem;
+}

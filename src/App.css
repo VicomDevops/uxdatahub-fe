@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+.vjs-control-bar{
+  display: none !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.App-header3 {
+  margin-top: 6em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.App-header2 {
+  height: 100vh;
+  display: flex;
+  width: 100% !important;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #f3fbf7;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00a359;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #018047;
+  cursor: pointer;
+}
+
+.main-side{
+  height: 100vh;
+  width: 100%;
+}
+
+.contianer1{
+  width: 17rem;
+  position: relative;
+}
+
+.contianer-collapse1{
+  width: 6.5rem;
+  position: relative;
+}
+
+.contianer2{
+  width: calc(100% - 15rem);
+  transition: ease-in .1s;
+  position: relative;
+}
+
+.contianer-collapse2{
+  width: calc(100% - 6.5rem);
+  transition: ease-in .1s;
+  position: relative;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-side{
+    margin-left: 7rem !important;
+  }
+}
+  
+@media screen and (max-width: 1450px) {
+  .main-side{
+    margin-left: 4rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .App-header {
+    /* background-color: #282c34; */
+    height: 100%;
+    min-height: auto;
+    /* color: white; */
+  }
+}
+

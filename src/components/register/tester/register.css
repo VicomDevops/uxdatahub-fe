@@ -1,0 +1,201 @@
+#label__style__signup{
+    display: flex;
+    color: #002C3F;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+.ctn__signup{
+    width: 100%;
+    background-color: white;
+    margin-top: 6em;
+}
+.signup__form{
+    margin-left:2em;
+    width: 30%;
+}
+#header__signup{
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #00a359;  
+}
+.signup__button{
+    font-size: 1.1em !important;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    background: #00a359 !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    border-radius: 6px !important;
+    font-family:   sans-serif; 
+}
+
+
+.acc_eester__button{
+    font-size: 1em !important;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    background: #00a359 !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    border-radius: 6px !important;
+    font-family:   sans-serif; 
+}
+
+.acc_eester__button:hover {
+    /* background-color: #03c56e  !important; */
+    box-shadow:0 5px 20px rgba(0, 35, 49, 0.2) !important ;
+    color: white;
+  }
+
+
+.signup__button:hover {
+    /* background-color: #03c56e  !important; */
+    box-shadow:0 5px 20px rgba(0, 35, 49, 0.2) !important ;
+    color: white;
+  }
+  .footer__signup{
+      margin-bottom: 2em;
+      
+  }
+  .invalid-feedback {
+    display: unset !important;
+}
+#password,
+#email,
+#phone,
+#sector,
+#useCase,
+#nbEmployees,
+#firstName,
+#lastName,
+#age,
+#genre,
+#situation__familiale,
+#pays,
+#csp,
+#niveau,
+#reseau,
+#os,
+#profession,
+#company,
+textarea {
+  /* width: 350px; */
+  font-size: 1em;
+  height: 50px;
+  border-radius: 19px;
+  border: solid 1px #d3d3d3 !important;
+  color: #002C3F;
+}
+*:focus {
+  outline: none;
+}
+.css-1s2u09g-control{
+    font-size: 1em;
+    height: 50px;
+    border-radius: 19px!important;
+    border: solid 1px #d3d3d3 !important;
+    color: #002C3F;
+}
+.css-1s2u09g-control:hover{
+    font-size: 1em;
+    height: 50px;
+    border-radius: 19px !important;
+    border: solid 1px #d3d3d3 !important;
+    color: #002C3F;
+}
+.css-1s2u09g-control:focus{
+    font-size: 1em;
+    height: 50px;
+    border-radius: 19px !important;
+    border: solid 1px #d3d3d3 !important;
+    color: #002C3F;
+}
+.css-1pahdxg-control{
+    font-size: 1em;
+    height: 50px;
+    border-radius: 19px !important;
+    border: solid 1px #d3d3d3 !important;
+    color: #002C3F;
+}
+
+.file__zone__form{
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 1.3em;
+    margin-bottom: 1rem;
+}
+
+.file__zone{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-bottom: -10px;
+}
+
+.file__zone__file{
+    width: 135px !important;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 4px 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: rgb(92, 88, 88);
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+    -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+    user-select: none; /* Propriété standard */
+}
+
+.file__zone__file__done{
+    width: 135px !important;
+    border: 1px solid #15ff00;
+    display: inline-block;
+    padding: 4px 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #01773c;
+    color: rgb(255, 255, 255);
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+    -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+    user-select: none; /* Propriété standard */
+}
+
+.file__zone__file__fail{
+    width: 135px !important;
+    border: 1px solid #d70000;
+    display: inline-block;
+    padding: 4px 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #920000;
+    color: rgb(255, 255, 255);
+    -moz-user-select: none; /* Firefox */
+    -webkit-user-select: none; /* Chrome, Safari, Opéra depuis la version 15 */
+    -ms-user-select: none; /* Internet explorer depuis la version 10 et Edge */
+    user-select: none; /* Propriété standard */
+}
+
+input[type="file"] {
+    display: none;
+}
+
+
+.textError{
+    font-size: 0.7em;
+    color: red;
+    margin-top: 0.5em;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,140 @@
+.square1{
+font-weight: bold;
+color: gold;
+}
+.square2{
+font-weight: 300;
+color: red;
+}
+.square3{
+font-weight: bold;
+color: #002C3F;
+}
+.square4{
+font-weight: 600;
+color: #00A359;
+}
+.favoris{
+position: relative;
+width: 100%;
+}
+.favoris-panel{
+position: relative;
+width: 100%;
+margin-top: 2rem !important;
+}
+.favoris-dashboard{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+.display__flex__row-dashboard{
+position: relative;
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+gap: 1rem;
+align-items: center;
+}
+.bold{
+font-weight: bold;
+}
+
+.dashboard-right_side{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-end;
+}
+
+.dashboard_client-right_side{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-end;
+height: 100% !important;
+}
+.dashboard_client {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+height: 100% !important;
+padding-right: 0px !important;
+}
+.modifier{
+text-decoration: underline;
+color: #00A359;
+font-size: 13px;
+font-weight: 500;
+cursor: pointer;
+}
+
+.essai{
+font-size: 14px;
+color: #F68E12;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.add__btn{
+background-color: #fff;
+color: #00A359;
+font-size: 32px !important;
+font-weight: 600;
+width: 50px;
+cursor: pointer;
+position: absolute !important;
+top: 40px;
+left: 340px;
+z-index: 1;
+}
+
+.landing__ctn {
+width: 99%;
+/*margin-left: -4em;*/
+/* margin-top: 1rem; */
+background-color: white;
+border-radius: 15px;
+}
+.MuiIconButton-root {
+padding: 0 !important;
+}
+.question_dyn {
+width: 100%;
+position: absolute;
+top: 0px;
+z-index: 100;
+}
+.landing__client_tester {
+width: 98%;
+/* margin-top: 6em; */
+position: absolute;
+top: 20px;
+background-color: white;
+border-radius: 15px;
+}
+
+.testDone{
+background: grey !important;
+    color: white !important;
+    border: none !important;
+    padding: 4px 3px !important;
+    border-radius: 50% !important;
+    font-size: 16px !important;
+    font-family:   sans-serif;     
+}
+
+.testReady{
+background: #00A359 !important;
+    color: white !important;
+    border: none !important;
+    padding: 4px 3px !important;
+    border-radius: 50% !important;
+    font-size: 16px !important;
+    font-family:   sans-serif;     
+}
+
+.disabledBtn{
+cursor: not-allowed !important;
+}

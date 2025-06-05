@@ -1,0 +1,43 @@
+# Build insight-data-front project.
+
+# Trigger whenever we have a new commit on develop branch
+trigger:
+- develop
+
+# Use insight-data privatez pool agent
+pool: Default
+
+# build stage
+steps:
+- task: SonarQubePrepare@5
+  inputs:
+    SonarQube: 'SonarQube_service'
+    scannerMode: 'CLI'
+    configMode: 'manual'
+    cliProjectKey: $(cliProjectSonarQubeKey)
+    cliProjectName: 'insight-data-front'
+    cliSources: '.'
+
+# build project
+- script: |
+    npm install
+    npm run build
+  displayName: 'npm install and build'
+  
+- task: SonarQubeAnalyze@5
+  inputs:
+    jdkversion: 'JAVA_HOME'
+
+- task: CopyFiles@2
+  displayName: 'Copy Artifacts'
+  inputs:
+    contents: '$(Build.Repository.LocalPath)/build/**'
+    targetFolder: '$(Build.ArtifactStagingDirectory)' 
+    CleanTargetFolder : true
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish build'
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/build'
+    ArtifactName: 'insight-data-front' 
+

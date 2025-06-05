@@ -1,0 +1,26 @@
+{
+    "En": {
+        "login": "Login",
+        "presentation": "Platform",
+        "solutions": "Solution",
+        "blog": "Blog",
+        "tester": "Become a Tester",
+        "analyzes": "Our Analyzes",
+        "trial": "Became a customer",
+        "dashboard": "Dashboard",
+        "ref": "Our References",
+        "pricing": "Pricing"
+    },
+    "Fr": {
+        "login": "Se Connecter",
+        "presentation": "Plateforme",
+        "solutions": "Solution",
+        "blog": "Blog",
+        "tester": "Devenir un Testeur",
+        "analyzes": "Nos Analyses",
+        "trial": "Devenir un client",
+        "dashboard": "Tableau de Bord",
+        "ref": "Nos Références",
+        "pricing": "Tarif"
+    }
+}

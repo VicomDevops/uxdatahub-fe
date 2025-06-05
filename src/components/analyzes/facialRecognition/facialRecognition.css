@@ -1,0 +1,118 @@
+.btn_filter{
+    border-radius: 20px !important;
+    min-width: 94px;
+    height: 31.2px;
+    border: none !important;
+    margin-right: 2em;
+    font-family: sans-serif !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    line-height: 15px;
+
+    text-align: center !important;
+}
+
+._selected1{
+    background: #00aa25  !important;
+    color: white !important;
+}
+
+._not_selected1{
+    color: #00aa25  !important;
+    background: rgba(204, 204, 204, 0.11) !important;
+}
+
+._selected2{
+    background: #ADD8E6  !important;
+    color: white !important;
+}
+
+._not_selected2{
+    color: #ADD8E6  !important;
+    background: rgba(204, 204, 204, 0.11) !important;
+}
+
+._selected3{
+    background: #1E90FF  !important;
+    color: white !important;
+}
+
+._not_selected3{
+    color: #1E90FF  !important;
+    background: rgba(204, 204, 204, 0.11) !important;
+}
+
+._selected4{
+    background: #ff9500  !important;
+    color: white !important;
+}
+
+._not_selected4{
+    color: #ff9500  !important;
+    background: rgba(204, 204, 204, 0.11) !important;
+}
+
+._selected5{
+    background: #556B2F  !important;
+    color: white !important;
+}
+
+._not_selected5{
+    color: #556B2F  !important;
+    background: rgba(204, 204, 204, 0.11) !important;
+}
+
+._selected6{
+    background: #9370DB  !important;
+    color: white !important;
+}
+
+._not_selected6{
+    color: #9370DB !important;
+    background: rgba(204, 204, 204, 0.11) !important;
+}
+
+._selected7{
+    background: #2F4F4F  !important;
+    color: white !important;
+}
+
+._not_selected7{
+    color: #F62F4F4F 8E12 !important;
+    background: rgba(204, 204, 204, 0.11) !important;
+}
+
+._selected8{
+    background: #ff1500  !important;
+    color: white !important;
+}
+
+._not_selected8{
+    color: #ff1500  !important;
+    background: rgba(204, 204, 204, 0.11) !important;
+}
+
+.row_3{
+    padding: 1em 0em 1em 3em;
+}
+.img_style3{
+    cursor: pointer;
+    margin: 0 1em 0 auto;
+    width: 14px;
+}
+
+
+.analyze_semantique_container{
+    display: flex;
+    flex-direction: column
+}
+
+
+.chart_container_analyse_Facial {
+    padding: 1em 0em 1em 0em;
+    border: 5px solid #F3FBF7;
+    border-radius: 10px;
+    max-width: 50%;
+    min-width: 30%;
+}

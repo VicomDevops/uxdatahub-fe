@@ -1,0 +1,18 @@
+.center-modal {
+  top: 100px !important;
+}
+@media (min-width: 1200px) {
+  .modal-xl {
+    width: 800px !important;
+  }
+}
+@media (min-width: 1800px) {
+  .modal-xxl {
+    width: 1200px !important;
+  }
+}
+.bottom-modal {
+  width: 1400px;
+  bottom: 0;
+  position: absolute;
+}

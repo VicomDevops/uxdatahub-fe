@@ -1,0 +1,107 @@
+.btn__1{
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #00a359 !important;
+  border-color: #00a359 !important;
+  margin-right: 1rem;
+  width: 238px;
+}
+.btn__2{
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: rgba(68, 61, 246, 0.1) !important;
+  border-color: rgba(68, 61, 246, 0.1) !important;
+  width: 238px;
+  color: #00a359 !important;
+}
+.btn__2:hover {
+  box-shadow:0 5px 20px rgba(0,44,63,0.2) !important ;
+  color: #00a359 !important;
+}
+.btn__1:hover {
+  box-shadow:0 5px 20px rgba(0,44,63,0.2) !important ;
+  color: white;
+}
+.cam_style{
+  position: fixed;
+  left: 87vw;
+  top: -23px;
+  width: 12em;
+  height: 12em;
+}
+
+.modal-video{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.error_etape{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.chat_style-footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.5rem;
+}
+
+.tab-text{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  font-weight:bold;
+}
+
+
+.emotionsModalContainer{
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.dataDisplayContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.dataDisplay{
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.carouselItem{
+  min-width: 100%;
+  height: 200px;
+}
+
+.carouselItem img{
+  width: 100%;
+  height: 100%;
+}
+
+.required{
+  font-size: 14px;
+  color: red;
+}

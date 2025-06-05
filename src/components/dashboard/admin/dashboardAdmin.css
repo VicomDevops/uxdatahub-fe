@@ -1,0 +1,295 @@
+.modal__btns{
+   margin-top: 5em;
+}
+
+.rapport_form{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   padding-left: 2rem;
+}
+
+.modal_inscription_admin{
+   width: 100%;
+   text-align: center;
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300 ;
+   margin-top: -35px !important;
+}
+
+.row_form_admin_btn{
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+}
+
+
+.modal__form_Admin{
+   width: 100%;
+   margin: auto;
+}
+.display__flex__row-compte_admin{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   margin-top: 1rem;
+}
+
+.landing_input_admin{
+   width: 26.5rem !important;
+   border-radius: 15px !important;
+   height: 40px !important;
+   background-color: rgba(240, 255, 241, 0.264) !important;
+}
+
+.row_form_admin{
+   display: flex !important;
+   flex-direction: row !important;
+   justify-content: flex-start !important;
+   align-items: flex-start !important;
+   width: 100%;
+   gap: 4rem;
+}
+
+.admin_popup_titleA{
+   font-weight: 500;
+   color: #00A359;
+   font-family: 'Roboto' , sans-serif !important;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 28px;
+   line-height: 26px;
+}
+
+.admin_popup_titleP{
+   font-weight: 500;
+   color: #000;
+   font-family: 'Roboto' , sans-serif !important;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 28px;
+   line-height: 26px;
+}
+
+.adminRenderTable{
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   width: 100% !important;
+   height: 30.8rem !important;
+}
+
+
+.admin_header{
+   display: flex;
+   gap: 3rem;
+   margin-top: -50px !important;
+   width: 100% !important;
+   float: left !important;
+}
+
+.iban_facture_admin{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   border-radius: 5px !important;
+   width: 100rem;
+   height: 12.7rem;
+   background-color: #F3FBF7;
+   font-family: 'Roboto' , sans-serif !important;
+}
+
+.editable-row .ant-form-item-explain {
+   position: absolute !important;
+   top: 100% !important;
+   font-size: 12px !important;
+ }
+
+.admin_footer{
+   width: 100%;
+   display: flex;
+   margin-top: 2rem;
+   gap: 2rem;
+}
+
+.iban_facture_section_admin{
+   display: flex;
+   overflow: scroll;
+   flex-wrap: wrap;
+   column-gap: 3rem;
+   row-gap: 1rem;
+   padding-top: .5rem;
+   padding-left: 3rem;
+   font-family: 'Roboto' , sans-serif !important;
+}
+
+.display__flex__row-admin{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+}
+
+.db__title-admin{
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 2.5rem;
+   line-height: 30px;
+   text-align: start !important;
+   color: #00A359;
+   display: flex;
+   margin: .5em 0 .8em 0;
+ }
+
+ .db__title-admin_Licence{
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 2.2rem;
+   line-height: 28px;
+   text-align: start !important;
+   color: #00A359;
+   display: flex;
+   margin: .5em 0 .8em 0;
+ }
+
+
+.iban_text_section{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   font-family: 'Roboto' , sans-serif !important;
+}
+
+.cursor{
+   cursor: pointer;
+}
+
+.iban_text_admin{
+   font-size: 14px;
+   font-weight: 300;
+   color: #0800efd2;
+   line-height: 14.06px;
+   text-decoration: underline;
+   cursor: pointer;
+   font-family: 'Roboto' , sans-serif !important;
+   width: 15rem !important;
+   text-align: left !important;
+}
+
+.contartAEnvoyer{
+   font-family: 'Roboto' , sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.contratAEnvoyer_container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.contratAEnvoyerBtn{
+   width: 8rem;
+   height: 2.3rem;
+   border-radius: 10px !important;
+   background-color: #17A25C !important;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.ant-table-wrapper .ant-table-thead >tr>th{
+   background: #F3FBF7 !important;
+   font-family: 'Roboto' , sans-serif !important;
+   font-style: normal !important;
+   font-weight: 600 !important;
+   font-size: 16px !important;
+   line-height: 1.5 !important;
+}
+
+:where(.css-dev-only-do-not-override-diro6f).ant-table-wrapper .ant-table {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: rgba(0, 0, 0, 0.88);
+   font-size: 14px;
+   line-height: 4;
+   list-style: none;
+   font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+   background: #ffffff;
+   border-radius: 8px 8px 0 0;
+}
+
+.rapport_container{
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   width: 100%;
+}
+
+/*
+   The MIT License (MIT)
+   
+*/
+
+.table {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   color: rgba(0, 0, 0, 0.88);
+   font-size: 14px;
+   line-height: 1.5714285714285714;
+   list-style: none;
+   font-family: 'Apple Color Emoji','Segoe UI Symbol','Noto Color Emoji',sans-serif;
+   background: #ffffff;
+   border-radius: 8px 8px 0 0;
+}
+
+.editable-cell {
+   position: relative;
+ }
+ 
+ .editable-cell-value-wrap {
+   padding: 5px 12px;
+   cursor: pointer;
+ }
+ 
+ .editable-row:hover .editable-cell-value-wrap {
+   padding: 4px 11px;
+   border: 1px solid #d9d9d9;
+   border-radius: 2px;
+ }
+
+/*
+   Media Queries
+
+*/
+
+@media screen and (max-width: 992px){
+   .modal-lg, .modal-xl {
+      max-width: 950px !important;
+   }
+}
+
+@media screen and (min-width: 952px){
+   .modal-lg, .modal-xl {
+      max-width: 950px !important;
+   }
+}
