@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import {
-    Collapse, Navbar, NavbarToggler, Button, NavbarBrand,
-    Nav, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem,
-} from "reactstrap";
-import { Link } from "react-router-dom";
+import { Navbar} from "reactstrap";
 import { connect } from "react-redux";
-import authServices from '../../services/authServices';
-import { authRoutes, Routes } from '../../utils/routes';
 import Modals from '../common/modals/modal';
 import ClientRegisterForm from '../register/client/register'
 import ModelConditions from './ModalConditions';
@@ -16,11 +10,7 @@ import ModelLegal from './ModalLegal';
 import ConfimInscription from './ConfimInscription';
 import { onSaveClient, onSaveTester } from "../../actions/userActions"
 import { setScrolledSection } from "../../actions/navigationAction"
-import Lang from "../../utils/lang"
-import lng from "../../utils/utils.json"
 import { toast } from 'react-toastify';
-import Logo from '../../assets/logo-vector.svg'
-import ProfileIcon from '../../assets/insightdata_profil.svg'
 import "./navbar.css";
 import PayAsYouGoModal from "./PayAsYouGoModal";
 import TesterRegisterForm from '../register/tester/registerForm';
@@ -619,11 +609,6 @@ class NavBar extends Component {
      * @return {JSX.Element} The rendered component.
      */
     render() {
-        const { count, lngActive } = this.state;
-        const signupText = lng[lngActive].trial
-        const siguptester = lng[lngActive].tester
-        const authRoute = authRoutes()
-        const initialRoute = Routes(lngActive)
         return (
             <>
                 {this.renderModalSignup()}
@@ -634,145 +619,6 @@ class NavBar extends Component {
                 {this.renderModalLegal()}
                 {this.renderPayAsYouGoModel()}
                 {/* /*rendre la navbar responsive */}
-
-
-                <Navbar light expand="lg" fixed="top" className='navbar__color'>
-                    <NavbarBrand href="/">
-                        <div className="logo_container">
-                            <img src={Logo} alt="2M-advisory" className='logo' />
-                        </div>
-                    </NavbarBrand>
-
-                    <NavbarToggler onClick={this.toggleIsOpen} />
-
-
-
-                    <Collapse isOpen={this.state.isOpen} navbar>
-                        {this.props.auth.isAuthenticated ?
-                            <Nav className="mr-auto" navbar>
-                                {
-                                    authRoute.map((route, key) => {
-                                        return (
-                                            <div id="content__item__navbar" key={key}>
-                                                <Link onClick={() => this.setState({ count: key })} to={route.path}>
-                                                    <div className={`item__nav__bar${(count === key) ? '__selected' : ''}`}>
-                                                        {
-                                                            route.Name === "Blog" &&
-                                                            <div className="item_blog">
-                                                                {
-                                                                    route.Name === ("Se Connecter" || "login") ?
-                                                                        <div className="item__header_connecter">
-                                                                            {route.Name}
-                                                                        </div>
-                                                                        :
-                                                                        <div className="item__header">
-                                                                            {route.Name}
-                                                                        </div>
-                                                                }
-                                                            </div>
-                                                        }
-                                                    </div>
-                                                </Link>
-                                            </div>
-                                        )
-                                    })
-                                }
-                            </Nav>
-                            :
-                            <Nav className='nav__bar' navbar>
-                                {
-                                    initialRoute.map((route, key) => {
-                                        return (
-                                            <div id="content__item__navbar" key={key} onClick={() => this.handleScroll(route.Name)}>
-                                                <Link onClick={() => this.setState({ count: key })} to={route.path}>
-                                                    <div className={`item__nav__bar${(count === key) ? '__selected' : ''}`}>
-                                                        {
-                                                            route.Name === "Blog" ?
-                                                                <div className="item_blog">
-                                                                    {
-                                                                        route.Name === ("Se Connecter" || "Login") ?
-                                                                            <div className="item__header_connecter">
-                                                                                {route.Name}
-                                                                            </div>
-                                                                            :
-                                                                            <div className="item__header">
-                                                                                {route.Name}
-                                                                            </div>
-                                                                    }
-                                                                </div>
-                                                                :
-                                                                <div className="item__header">
-                                                                    {
-                                                                        route.Name === lng[lngActive].login ?
-                                                                            <div className="item__header_connecter">
-                                                                                {route.Name}
-                                                                            </div>
-                                                                            :
-                                                                            <div className="item__header">
-                                                                                {route.Name}
-                                                                            </div>
-                                                                    }
-                                                                </div>
-                                                        }
-                                                    </div>
-                                                </Link>
-                                            </div>
-                                        )
-                                    })
-                                }
-                                <div className='buttons_section'>
-                                    <Button
-                                        className="btn__sign"
-                                        onClick={() => {
-                                            this.toggle();
-                                        }}
-                                    >
-                                        {signupText}
-                                    </Button>
-                                    <Button
-                                        className="btn__sign2"
-                                        onClick={() => {
-                                            this.toggle2();
-                                        }}
-                                    >
-                                        {siguptester}
-                                    </Button>
-                                </div>
-                                <div id="content__item__navbar" >
-                                    <div className="item__nav__bar_lang">
-                                        <div className="item__header_lang">
-                                            <Lang />
-                                        </div>
-                                    </div>
-                                </div>
-                            </Nav>
-                        }
-                        {this.props.auth.isAuthenticated &&
-                            <Nav className="ml-auto" navbar>
-                                <UncontrolledDropdown direction="left" nav inNavbar>
-                                    <DropdownToggle nav caret>
-                                        <img style={{ width: '45px' }} src={ProfileIcon} alt="" />
-                                    </DropdownToggle>
-                                    <DropdownMenu >
-                                        <DropdownItem divider />
-                                        <DropdownItem
-                                            href="/"
-                                            id="content__item__navbar"
-                                            onClick={() => {
-                                                authServices.logout();
-                                            }}
-                                        >
-                                            <div className="log__out">
-                                                <i className="fa fa-sign-out fa-lg" aria-hidden="true" />
-                                                Logout
-                                            </div>
-                                        </DropdownItem>
-                                    </DropdownMenu>
-                                </UncontrolledDropdown>
-                            </Nav>
-                        }
-                    </Collapse>
-                </Navbar>
             </>
         );
     }

@@ -7,9 +7,7 @@
         "tester": "Become a Tester",
         "analyzes": "Our Analyzes",
         "trial": "Became a customer",
-        "dashboard": "Dashboard",
-        "ref": "Our References",
-        "pricing": "Pricing"
+        "dashboard": "Dashboard"
     },
     "Fr": {
         "login": "Se Connecter",
@@ -19,8 +17,6 @@
         "tester": "Devenir un Testeur",
         "analyzes": "Nos Analyses",
         "trial": "Devenir un client",
-        "dashboard": "Tableau de Bord",
-        "ref": "Nos Références",
-        "pricing": "Tarif"
+        "dashboard": "Tableau de Bord"
     }
 }

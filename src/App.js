@@ -10,7 +10,6 @@ import authServices from "./services/authServices";
 import Toast from "./components/common/Toast";
 import "./App.css";
 import VerticalNavBar from './components/verticalNavBar/verticalNavBar'
-import Footer from "./components/footer/footer";
 import { Col } from 'reactstrap'
 import { successLoginTester1 } from './actions/authActions'
 import {menuLandingAdmin, menuLandingClient, menuLandingTester, menuLandingTesterInsight} from './utils/routes' 
@@ -40,15 +39,10 @@ class App extends React.Component {
     const routes = Routes(this.state.lngActive).map((route, i) => (
       <Route key={route.id + i} path={route.path} component={route.component} />
     ));
-    // const clientTesterRoutes = menuLandingClientTester(this.state.lngActive).map((route, i) => (
-    //   <Route key={route.id + i} strict path={route.path} component={route.component} />
-    // ));
     const routesAuth = authRoutes().map((route, i) => (
       <Route key={route.id + i} strict path={route.path} component={route.component} />
     ));
     const route = Routes(this.state.lngActive).map((r) => r.path);
-    // const routeAuth = authRoutes().map((r) => r.path);
-
     const renderRoutes = route.includes(window.location.pathname) ? (
       <React.Fragment> {routes}</React.Fragment>
     ) : (
@@ -58,8 +52,6 @@ class App extends React.Component {
         {routes}
       </React.Fragment>
     );
-    //this.props.auth.connected === true
-    //clientTesterRoutes.includes(window.location.pathname)?
     const renderRoutesAuth = (
       <React.Fragment>  {this.props.auth.user.roles &&
         this.props.auth.user.roles[0] === ROLES.ADMIN && (
@@ -82,14 +74,7 @@ class App extends React.Component {
       </React.Fragment>
 
     );
-    // const renderNavbar = <NavBar />;
-    // const renderProfileRouter = (
-    //   <Route path="/profile" component={Profile} exact={true} />
-    // );
-    // const p = window.location.pathname;
-
     const path = window.location.pathname;
-    const renderFooter = <Footer />
     const { lng } = this.props.auth
     return (
       <div className="App">
@@ -160,7 +145,6 @@ class App extends React.Component {
               }
             </>
           }
-          {!this.props.auth.isAuthenticated && renderFooter}
         </Router>
         <Toast />
       </div>

@@ -1,6 +1,3 @@
-import AboutUs from "../components/home/aboutUs"
-import OurSolutions from "../components/home/ourSolutions"
-import Pricing from "../components/home/pricing"
 import LoginForm from "../components/login/login.jsx"
 import ClientValidation from "../components/dashboard/admin/users/ClientValidation.jsx"
 import DashboardAdmin from "../components/dashboard/admin/dashboardAdmin.jsx"
@@ -24,7 +21,6 @@ import stepVisualisation from "../components/scenario/createScenario/stepVisuali
 import PanelList from "../components/scenario/panelList"
 import CreatePanelInsight from "../components/scenario/createPanel/createPanelInsight"
 import CreatePanelClient from "../components/scenario/createPanel/createPanelClient"
-import references from "../components/home/references"
 import Profile from "../components/landingPages/tester/profile"
 import ProfileCT from "../components/landingPages/clientTester/profile"
 import DashboardPageTester from "../components/landingPages/tester/dashboard"
@@ -51,6 +47,7 @@ import AuditUXFlashForm from '../components/dashboard/admin/AuditUXFlashForm.jsx
 import PreAuditUXFlashForm from "../components/dashboard/admin/PreAuditUXFlashForm.jsx"
 import RapportRecommandations from "../components/dashboard/client/rapport/SyntheseReport.jsx"
 import RapportRecommandationsConcret from "../components/dashboard/client/rapport/ConcretReport.jsx"
+import HomePageForm from "../components/home/homePage.jsx"
 
 
 const authRoutes = () =>
@@ -479,29 +476,11 @@ const menuLandingAdmin = (lng) => [
 
 const Routes = (lng) =>
   [
-    {
+        {
       Name: lang[lng].presentation,
       path: "/presentation",
-      component: AboutUs,
+      component: HomePageForm,
       id: "presentation"
-    },
-    {
-      Name: lang[lng].solutions,
-      path: "/solution",
-      component: OurSolutions,
-      id: "solution"
-    },
-    {
-      Name: lang[lng].pricing,
-      path: "/pricing",
-      component: Pricing,
-      id: "pricing"
-    },
-    {
-      Name: lang[lng].blog,
-      path: "/blog",
-      component: references,
-      id: "home"
     },
     {
       Name: lang[lng].login,
