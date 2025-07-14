@@ -140,7 +140,7 @@ const ClientRegisterForm = ({
                                                 }
                                             />
                                             <span style={{ fontSize: '11px', marginLeft: '-1.2em' }}>
-                                                J’ai lu et j’accepte la  <span className='conditions_text' onClick={handlePolitique}>politique de confidentialité</span> d’Insight Data</span>
+                                                J’ai lu et j’accepte la  <span className='conditions_text' onClick={handlePolitique}>politique de confidentialité</span> d’UX DATAHUB</span>
                                         </div>
                                         <div>
                                             <FormControlLabel

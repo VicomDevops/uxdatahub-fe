@@ -40,30 +40,30 @@ const TesterTable = ({ testers, onToggleUpdateTester, onToggleDeleteTester, onTo
 
     const actions = [
         rowData => ({
-            icon: () => <img style={{ width: "22px", marginRight: "5px" }} className={`${rowData?.tests_passed?.length === 0 ? 'tableIcons1' : 'tableIcons1 tableIconsDisabled'}`} src={Replace} alt="Insight Data icons" />,
+            icon: () => <img style={{ width: "22px", marginRight: "5px" }} className={`${rowData?.tests_passed?.length === 0 ? 'tableIcons1' : 'tableIcons1 tableIconsDisabled'}`} src={Replace} alt="UX DATAHUB icons" />,
             tooltip: 'Remplacer',
             onClick: (event, rowData) => onToggleUpdateTester(rowData, "remplace"),
             hidden: !rowData?.id,
         }),
         rowData => ({
-            icon: () => <img style={{ width: "18px", marginRight: "5px" }} className={`${rowData?.tests_pending?.length !== undefined && rowData?.tests_pending?.length !== 0 && rowData?.tests_passed?.length !== 0 ? 'tableIcons1' : 'tableIcons1 tableIconsDisabled'}`} src={Detacher} alt="Insight Data icons" />,
+            icon: () => <img style={{ width: "18px", marginRight: "5px" }} className={`${rowData?.tests_pending?.length !== undefined && rowData?.tests_pending?.length !== 0 && rowData?.tests_passed?.length !== 0 ? 'tableIcons1' : 'tableIcons1 tableIconsDisabled'}`} src={Detacher} alt="UX DATAHUB icons" />,
             tooltip: 'Detacher',
             onClick: (event, rowData) => onToggleDetacherModal(rowData),
             hidden: !rowData?.id,
         }),
         rowData => ({
-            icon: () => <img style={{ width: "30px" }} className={`${rowData?.id ? 'tableIcons1 tableIconsDisabled' : 'tableIcons1'}`} src={Edit} alt="Insight Data icons" />,
+            icon: () => <img style={{ width: "30px" }} className={`${rowData?.id ? 'tableIcons1 tableIconsDisabled' : 'tableIcons1'}`} src={Edit} alt="UX DATAHUB icons" />,
             tooltip: 'Modifier',
             onClick: (event, rowData) => onToggleUpdateTester(rowData, "update"),
             hidden: rowData?.id,
         }),
         rowData => ({
-            icon: () => <img style={{ width: "30px" }} className={`${(rowData?.tests_passed?.length === 0 && rowData?.id) || (rowData?.tests_pending === undefined) ? 'tableIcons1' : 'tableIcons1 tableIconsDisabled'}`} src={Delete} alt="Insight Data icons" />,
+            icon: () => <img style={{ width: "30px" }} className={`${(rowData?.tests_passed?.length === 0 && rowData?.id) || (rowData?.tests_pending === undefined) ? 'tableIcons1' : 'tableIcons1 tableIconsDisabled'}`} src={Delete} alt="UX DATAHUB icons" />,
             tooltip: 'Supprimer Testeur',
             onClick: (event, rowData) => onToggleDeleteTester(rowData),
         }),
         rowData => ({
-            icon: () => <img style={{ width: "30px" }} className={`${rowData?.tests_passed?.length !== 0 ? 'tableIcons1' : 'tableIcons1 tableIconsDisabled'}`} src={DeleteTest} alt="Insight Data icons" />,
+            icon: () => <img style={{ width: "30px" }} className={`${rowData?.tests_passed?.length !== 0 ? 'tableIcons1' : 'tableIcons1 tableIconsDisabled'}`} src={DeleteTest} alt="UX DATAHUB icons" />,
             tooltip: 'Supprimer Test',
             onClick: (event, rowData) => onToggleDeleteTest(rowData),
         }),
@@ -73,7 +73,7 @@ const TesterTable = ({ testers, onToggleUpdateTester, onToggleDeleteTester, onTo
                     style={{ width: "22px", marginRight: "5px" }}
                     className={disabledIcons[rowData.id] ? 'tableIconsDisabled' : 'tableIcons1'}
                     src={ResentCredentials}
-                    alt="Insight Data icons"
+                    alt="UX DATAHUB icons"
                 />
             ),
             tooltip: 'Renvoyer les informations d\'identification',

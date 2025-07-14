@@ -78,7 +78,7 @@ const PayAsYouGoModal = ({visible,toggleVisible}) => {
     */
     const textPayAsYouGo = [
         "Scénario multidevices",
-        "Panel Insight Data",
+        "Panel UX DATAHUB",
         "Analyse démographique",
         "Analyse statistique par étape",
         "Résultats en 24h",

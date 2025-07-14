@@ -10,7 +10,7 @@ import { toast } from 'react-toastify';
 class CreatePanelInsight extends Component {
     state = {
         currentPanel: {
-            type: 'insight data'
+            type: 'UX DATAHUB'
         },
         validForm: true,
         idScenario: 0,

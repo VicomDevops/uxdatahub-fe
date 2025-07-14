@@ -12,7 +12,7 @@ const ModalInscription = ({ visible, toggleVisible }) => {
     >
       <div className="col-md-12">
         <span  className='model_inscription'>Votre demande a bien été envoyer et nous vous en <br /> remercions. 
-        Nos conseillers Insight Data <br /> reviendront vite vers vous.</span>
+        Nos conseillers UX DATAHUB <br /> reviendront vite vers vous.</span>
         <div className="btn_modal_ctn">
             <Link type="submit" className="btn__form__modal" to={"/client"} onClick={() => toggleVisible()}>
                 Revenir sur le tableau de bord

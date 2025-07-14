@@ -21,7 +21,7 @@ const ModalEnd = ({ visible, toggle }) => {
         <span style={{ textAlign: 'center', marginTop: 20 }}>
           S'il te reste encore un peu de temps, n'hesite pas à
           <br />
-          participer à un nouveau test Insight Data.
+          participer à un nouveau test UX DATAHUB.
         </span>
         <Button className="btn__close" style={{ marginTop: 20 }} onClick={() => toggle()} >Fermer</Button>
       </div>

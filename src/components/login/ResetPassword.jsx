@@ -30,7 +30,7 @@ function ResetPasword() {
         <div className="ctn__login">
             <div className="form__login">
                 <span id="header__login">Réinitialiser votre mot de passe</span>
-                <span id="header__login">Insight Data</span>
+                <span id="header__login">UX DATAHUB</span>
                 <hr className="line" />
                 <AvForm onValidSubmit={submit}>
                     <AvField name="password" value={passwordObj.password}

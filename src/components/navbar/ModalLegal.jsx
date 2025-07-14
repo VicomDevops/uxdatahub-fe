@@ -18,7 +18,7 @@ const ModelLegal = ({ visibleLegal, handleLegal }) => {
                             <p className="card-text">
                                 <h5>Informations générales de l’éditeur : </h5>
                                 <p>
-                                    Nom commercial : Insight data, appartement à la SAS 2M-ADVISORY <br />
+                                    Nom commercial : UX DATAHUB, appartement à la SAS 2M-ADVISORY <br />
                                     Raison sociale : 2M-ADVISORY <br />                            
                                     2M ADVISORY SAS au capital social de 100 000 Euros <br />
                                     RCS Paris 795 044 932 <br />
@@ -27,7 +27,7 @@ const ModelLegal = ({ visibleLegal, handleLegal }) => {
                                     Directeur de publication : Nicolas MARTIN de PENA <br />
                                     Adresse e-mail : nmartindepena@2M-advisory.fr <br />
                                     Téléphone : 07 87 03 20 49 <br />
-                                    Insight Data est propriétaire et exploitante du site insightdata.fr <br />
+                                    UX DATAHUB est propriétaire et exploitante du site insightdata.fr <br />
                                 </p>
                                 <h5>Hébergement :  </h5>
                                 <p>
@@ -39,7 +39,7 @@ const ModelLegal = ({ visibleLegal, handleLegal }) => {
                                 </p>
                                 <h5>Présentation  </h5>
                                 <p>
-                                    Insight Data est une plateforme de services ayant pour but d’optimiser les parcours utilisateurs 
+                                    UX DATAHUB est une plateforme de services ayant pour but d’optimiser les parcours utilisateurs 
                                     et de permettre ainsi une optimisation ergonomique de multiples dispositifs (desktop, mobile, produit, service).   <br />
                                     Le site web présente la solution aux différents publics (prospect, client, testeur, partenaire) de tout secteur,
                                     ayant un intérêt dans l’analyse 
@@ -47,20 +47,20 @@ const ModelLegal = ({ visibleLegal, handleLegal }) => {
                                 </p>
                                 <h5>Objectifs  </h5>
                                 <p>
-                                    <span style={{ marginLeft : ".2rem"}}>1.</span> Présenter aux internautes le service Insight Data ainsi que les différentes solutions qu’offre la plateforme. <br />
+                                    <span style={{ marginLeft : ".2rem"}}>1.</span> Présenter aux internautes le service UX DATAHUB ainsi que les différentes solutions qu’offre la plateforme. <br />
                                     <span style={{ marginLeft : ".2rem"}}>2.</span> Proposer différents moyens de contacts pour entrer en relation.  <br />
                                     <span style={{ marginLeft : ".2rem"}}>3.</span> Donner accès aux espaces privés (espace client, espace testeur). <br />
                                 </p>
                                 <h5>Mesures relatives aux cookies    </h5>
                                 <p>
-                                    Les pages du site Insight Data utilisent des cookies, qui sont des fichiers texte stockés dans une base de données via un navigateur.
+                                    Les pages du site UX DATAHUB utilisent des cookies, qui sont des fichiers texte stockés dans une base de données via un navigateur.
                                     Grâce à cette utilisation, nous pouvons vous fournir une expérience plus proche de vos besoins. Vous pouvez à tout moment choisir 
                                     d’accepter ou de refuser le paramétrage des cookies via votre navigateur. Nous ne pourrons cependant pas assurer une expérience 
                                     de navigation optimale. Pour en savoir plus, cliquez ici. 
                                 </p>
                                 <h5>Utilisation des données personnelles  </h5>
                                 <p>
-                                    La plateforme Insight Data collecte une série de données sur ses utilisateurs. Les données personnelles récoltées par ce site sont (liste non exhaustive) :
+                                    La plateforme UX DATAHUB collecte une série de données sur ses utilisateurs. Les données personnelles récoltées par ce site sont (liste non exhaustive) :
                                     adresse email, nom, prénom, téléphone, email, adresse postale, société, fonction, sexe, âge, numéro de compte bancaire, type de navigateur, système d’exploitation. <br />
                                     Les données comportementales (ex : pages visitées, temps passé par page) sont enregistrées par des services tiers (ex : Google Analytics) afin d’améliorer 
                                     notre proposition de service. Ces données ne sont pas personnellement identifiables. <br />
@@ -70,9 +70,9 @@ const ModelLegal = ({ visibleLegal, handleLegal }) => {
                                 </p>
                                 <h5>Responsabilités </h5>
                                 <p>
-                                    Insight Data n'assume aucune responsabilité relative à l'utilisation de ses informations, ne donne aucune garantie, explicite ou implicite. Insight Data se réserve 
+                                    UX DATAHUB n'assume aucune responsabilité relative à l'utilisation de ses informations, ne donne aucune garantie, explicite ou implicite. UX DATAHUB se réserve 
                                     le droit de modifier à tout moment les contenus, n'est pas responsable ni de l'exactitude, ni des erreurs, ni des omissions du site. <br />
-                                    Insight Data ne pourra être responsable pour quel que dommage que ce soit tant direct qu'indirect,
+                                    UX DATAHUB ne pourra être responsable pour quel que dommage que ce soit tant direct qu'indirect,
                                     résultant d'une information contenue sur ce site.   
                                 </p>
                                 <p>
@@ -83,11 +83,11 @@ const ModelLegal = ({ visibleLegal, handleLegal }) => {
                                 <p>
                                     Les informations présentes peuvent être reproduites, imprimées ou téléchargées sous réserve de ne pas les modifier, 
                                     de n’utiliser les informations qu’à des fins personnelles et non commerciales, et de reproduire sur chaque page la mention 
-                                    « copyright Insight Data », au titre des droits d’auteur.  
+                                    « copyright UX DATAHUB », au titre des droits d’auteur.  
                                 </p>
                                 <p>
                                     Toute autre utilisation, non spécifiquement autorisée, est interdite sans autorisation écrite et préalable d’un représentant
-                                    d’Insight Data. 
+                                    d’UX DATAHUB. 
                                 </p>
                                 <p>
                                     Le non-respect de cette interdiction est une contrefaçon qui engage la responsabilité civile et pénale du contrefacteur. 

@@ -570,7 +570,7 @@ const Footer = () => {
                             <span className='body__line' onClick={handlePolitique}> Politique de Confidentialité </span> -
                             <span className='body__line'> Gestion des Cookies </span> -
                             <span className='body__line'> Protection des données </span> <br />
-                            UXDATAHUB - 10 rue Jean Macé 75011 Paris - contact@insightdata.fr
+                            UX DATAHUB - 10 rue Jean Macé 75011 Paris - contact@insightdata.fr
                         </span>
                     </Col>
                     <div className='footer_left'>

@@ -13,7 +13,7 @@ const ConfimInscription = ({ visibleInscription, handleInscription }) => {
                 <div className="col-md-12">
                     <div className='modal_inscription_admin'>
                         <div className='header_popup'>
-                            Bienvenue chez <span style={{ color : "#00A359", fontWeight : 500}}> Insight Data </span>
+                            Bienvenue chez <span style={{ color : "#00A359", fontWeight : 500}}> UX DATAHUB </span>
                             !<br />
                         </div>
                         <div>

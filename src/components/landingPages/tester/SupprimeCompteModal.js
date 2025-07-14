@@ -41,7 +41,7 @@ const SupprimeCompteModal = ({
             </p>
             {" "}
             <p className="pop-up-supp-text">
-                Toutes les informations que vous avez transmises seront alors supprimées de la base de données Insight Data.
+                Toutes les informations que vous avez transmises seront alors supprimées de la base de données UX DATAHUB.
             </p>
         </Col>
       </ModalBody>

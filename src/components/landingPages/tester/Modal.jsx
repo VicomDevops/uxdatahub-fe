@@ -54,7 +54,7 @@ const CustomModal = ({ show, children }) => {
 
             <span className="font-weight-500">
               <span style={{ fontSize: 25 }}>1.</span> Tu dois signer le contrat
-              de testeur, un accord entre toi et Insight Data pour assurer une
+              de testeur, un accord entre toi et UX DATAHUB pour assurer une
               collaboration transparente et de bonne foi.
             </span>
             <div style={{ width: 300, paddingLeft: 40, paddingTop:10, paddingBottom:10}}>

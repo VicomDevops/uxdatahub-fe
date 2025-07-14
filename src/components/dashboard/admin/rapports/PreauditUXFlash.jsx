@@ -71,7 +71,7 @@ const PreauditUXFlash  = ({ data }) => {
         data && 
         <div className="pdf-container">
             <div id="pdf-content">
-            <Watermark content={['UXDATAHUB', 'Pre-Audit']}>
+            <Watermark content={['UX DATAHUB', 'Pre-Audit']}>
               <div className="preaudit-container">
                 <div className="left-container">
                   <div className="content-container">

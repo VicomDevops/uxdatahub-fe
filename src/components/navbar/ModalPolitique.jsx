@@ -19,18 +19,18 @@ const ModelPolitique = ({ visiblePolitique, handlePolitique }) => {
                                 <h5>Confidentialité et protection des données </h5>
                                 <p>
                                     Dernière mise à jour : Décembre  2021 Nous vous sommes reconnaissants d'avoir accepté de vous joindre à notre communauté s. 
-                                    Insight Data propose à ses clients de sélectionner des utilisateurs/testeurs en fonction de leurs préférences de consommations
+                                    UX DATAHUB propose à ses clients de sélectionner des utilisateurs/testeurs en fonction de leurs préférences de consommations
                                     concernant des produits/services et des concepts de produits/services. Nos clients utilisent les retours et commentaires pour
                                     décider quel support/média utiliser, comment communiquer, le concevoir, l'améliorer ou comment le mettre à votre disposition.
                                     En participant à notre communauté, vous ferez partie de ceux dont l'opinion influe sur les décisions de nos clients. 
-                                    Cette charte a pour objectif de définir les engagements d’Insight Data (qui inclut les sociétés filiales ou partenaires de 2M-ADVISORY)
+                                    Cette charte a pour objectif de définir les engagements d’UX DATAHUB (qui inclut les sociétés filiales ou partenaires de 2M-ADVISORY)
                                     envers tous les membres de sa communauté de testeurs en matière de confidentialité, d'anonymat et de protection des données personnelles 
                                     afin de respecter et protéger la vie privée des testeurs. 
                                 </p>
                                 <h5>Informations générales  </h5>
-                                <h5>A propos d’Insight Data  </h5>
+                                <h5>A propos d’UX DATAHUB  </h5>
                                 <p>
-                                    Le nom Insight Data appartient à la SAS 2M-ADVISORY dont le siège social est situé au 10 rue Jean Macé – 75011 Paris - FRANCE et immatriculée au RCS de Paris. 
+                                    Le nom UX DATAHUB appartient à la SAS 2M-ADVISORY dont le siège social est situé au 10 rue Jean Macé – 75011 Paris - FRANCE et immatriculée au RCS de Paris. 
                                 </p>
                                 <h5>Vos informations personnelles demeurent confidentielles </h5>
                                 <p>
@@ -46,7 +46,7 @@ const ModelPolitique = ({ visiblePolitique, handlePolitique }) => {
                                     <br/>
                                     Nous utilisons ces informations pour effectuer des recherches et préparer des rapports et analyses statistiques concernant les préférences
                                     des consommateurs dans votre pays et dans le monde concernant des produits/services et des idées de nouveaux produits/services. L'ensemble de ces informations utilisées par
-                                    Insight Data ne permettront d'aucune façon d'identifier nominativement le testeur concerné. Ces informations ne seront utilisées que dans le cadre strict des tests auxquelles
+                                    UX DATAHUB ne permettront d'aucune façon d'identifier nominativement le testeur concerné. Ces informations ne seront utilisées que dans le cadre strict des tests auxquelles
                                     vous participerez. 
                                 </p>
                                 <h5>Responsables pour le traitement des données  </h5>
@@ -76,10 +76,10 @@ const ModelPolitique = ({ visiblePolitique, handlePolitique }) => {
                                 <h5>Collecte de données personnelles – Collecte Directe  </h5>
                                 <h5>Données à caractère obligatoire </h5>
                                 <p>
-                                    Les données personnelles demandées lors de votre inscription en tant que testeur Insight Data sont dites “obligatoires”. Vous ne pouvez pas vous inscrire 
+                                    Les données personnelles demandées lors de votre inscription en tant que testeur UX DATAHUB sont dites “obligatoires”. Vous ne pouvez pas vous inscrire 
                                     si vous ne renseignez pas ces données. 
                                     <br />
-                                    Ces données constituent pour Insight Data le minimum d’informations nécessaire pour établir votre profil testeur
+                                    Ces données constituent pour UX DATAHUB le minimum d’informations nécessaire pour établir votre profil testeur
                                     et vous proposer ainsi des tests en adéquation avec votre profil.  
                                 </p>
                                 <h5>Données à caractère non obligatoire  </h5>
@@ -97,7 +97,7 @@ const ModelPolitique = ({ visiblePolitique, handlePolitique }) => {
                                 <h5>Durée de conservation des données personnelles </h5>
                                 <p>
                                     Toutes les données personnelles que vous renseignez, que ce soit à l’inscription, dans votre espace testeur ou dans les questionnaires dit "d’éligibilité", 
-                                    sont conservées par Insight Data tout au long de votre "vie de testeur".
+                                    sont conservées par UX DATAHUB tout au long de votre "vie de testeur".
                                     <br />
                                     Lorsque vous supprimez votre compte, toutes les informations à caractère personnel 
                                     permettant de vous identifier nominativement sont supprimées définitivement de nos bases de données ; à savoir : vos email, nom, adresse postale, 
@@ -117,14 +117,14 @@ const ModelPolitique = ({ visiblePolitique, handlePolitique }) => {
                                 </p>
                                 <h5>Cookies </h5>
                                 <p>
-                                    Afin de gérer notre communauté et d'améliorer votre expérience en tant que testeur Insight Data, certains de nos outils et services utilisent des cookies.
+                                    Afin de gérer notre communauté et d'améliorer votre expérience en tant que testeur UX DATAHUB, certains de nos outils et services utilisent des cookies.
                                     Un cookie est une petite quantité de données, qui contient souvent un identifiant unique et anonyme, envoyée à votre navigateur par un serveur Web et stockée
                                     sur le disque dur de votre ordinateur. Les informations collectées grâce à ce cookie peuvent être associées à d'autres cookies que vous possédez sur votre ordinateur
                                     et utilisées pour compléter les informations dont nous disposons à votre sujet. Ce cookie ne contient aucune information pouvant vous identifier personnellement.
                                     <br />
                                     Certains de nos services et outils mis votre à disposition utilisent des cookies : 
                                     <br />
-                                    <span style={{ fontSize :"24px", fontWeight : 900, marginLeft : "1rem"}}>•</span> Site web www.Insight Data.fr :se référer à la section Déclaration relative aux cookies.
+                                    <span style={{ fontSize :"24px", fontWeight : 900, marginLeft : "1rem"}}>•</span> Site web www.UX DATAHUB.fr :se référer à la section Déclaration relative aux cookies.
                                     <br />
                                     <span style={{ fontSize :"24px", fontWeight : 900, marginLeft : "1rem"}}>•</span> Espace testeur : cookie de session ; but : authentification des utilisateurs du site. 
                                     <br />
@@ -133,21 +133,21 @@ const ModelPolitique = ({ visiblePolitique, handlePolitique }) => {
                                 <h5>Traitement des données personnelles  </h5>
                                 <h5>Licéité du traitement  </h5>
                                 <p>
-                                    Le traitement opéré par Insight Data sur les données personnelles est licite dans la mesure où les personnes s’inscrivant en tant que testeur 
-                                    Insight Data ont consenti au traitement de leur données personnelles (art. 6, paragraphe 1, point a).
+                                    Le traitement opéré par UX DATAHUB sur les données personnelles est licite dans la mesure où les personnes s’inscrivant en tant que testeur 
+                                    UX DATAHUB ont consenti au traitement de leur données personnelles (art. 6, paragraphe 1, point a).
                                     <br />
                                     Les personnes s’inscrivant à la communauté
-                                    Insight Data sont également informées qu’elles peuvent à tout moment retirer leur consentement et sont informées de l’ensemble de leurs droits
+                                    UX DATAHUB sont également informées qu’elles peuvent à tout moment retirer leur consentement et sont informées de l’ensemble de leurs droits
                                     concernant leurs données personnelles. 
                                 </p>
                                 <h5>Finalité de la collecte des données à caractère personnel   </h5>
-                                <h5>En aucun cas Insight Data ne vend, ne cède ou ne prête vos données personnelles à quelques tiers que ce soit à des fins de prospection.   </h5>
+                                <h5>En aucun cas UX DATAHUB ne vend, ne cède ou ne prête vos données personnelles à quelques tiers que ce soit à des fins de prospection.   </h5>
                                 <p>
                                     Toutes les informations nominatives ne pourront être utilisées à des fins d'analyse des résultats des tests. Vos noms, adresse complète, 
                                     email et n° de téléphone ne servent qu'à vous contacter. Votre IBAN ne sert qu’à réaliser le virement de vos gains sur votre compte bancaire;
                                     aucun retrait n’est réalisé.
                                     <br />
-                                    Comme mentionné plus haut, la collecte de données personnelles par Insight Data a pour finalité principale de pouvoir
+                                    Comme mentionné plus haut, la collecte de données personnelles par UX DATAHUB a pour finalité principale de pouvoir
                                     cibler les profils testeurs correspondants aux tests demandés par nos clients. Ces données personnelles nous servent également à des fins statistiques
                                     internes (suivis du type de profils, nombres testeurs disponibles par type de profils…) ainsi qu’à des fins derecherches scientifiques.
                                     <br />
@@ -166,50 +166,50 @@ const ModelPolitique = ({ visiblePolitique, handlePolitique }) => {
                                 </p>
                                 <h5>Chargés d'études   </h5>
                                 <p>
-                                    Les chargés d’études travaillant pour Insight Data ont accès à certaines données personnelles des testeurs (informations socio-démographiques et de consommation uniquement),
+                                    Les chargés d’études travaillant pour UX DATAHUB ont accès à certaines données personnelles des testeurs (informations socio-démographiques et de consommation uniquement),
                                     de manière entièrement anonymisée et sur accord de l’un des responsables du traitement mentionnées plus haut. La consultation de ces données permet aux chargés d’études de 
                                     sélectionner les testeurs dont le profil est en adéquation avec les tests à attribuer.                                 
                                 </p>
                                 <h5>Clients </h5>
                                 <p>
-                                    Les clients d’Insight Data n’ont accès qu’à certaines de vos données personnelles (informations socio-démographiques et de consommation), 
+                                    Les clients d’UX DATAHUB n’ont accès qu’à certaines de vos données personnelles (informations socio-démographiques et de consommation), 
                                     toujours sous forme anonymisée et en nombre restreint (généralement cinq informations en moyenne) afin de permettre le ciblage des testeurs 
                                     sur les tests qu’ils souhaitent lancer. Ces informations leurs permettent notamment d’avoir un aperçu statistique des testeurs réalisant les tests
                                     (répartition hommes/femmes ; âge moyen ; répartition géographique…). 
                                     <br />
-                                    Exceptionnellement et pour des raisons techniques de réalisation de certains tests, Insight Data peut être amené à vous demander votre consentement
+                                    Exceptionnellement et pour des raisons techniques de réalisation de certains tests, UX DATAHUB peut être amené à vous demander votre consentement
                                     pour transmettre votre adresse email à certains clients de manière à ce que ceux-ci puissent autoriser votre email à consulter leur plateforme en ligne.
                                     Dans tous les cas, si vous ne donnez pas votre consentement, votre email n’est pas transmis. Chaque fois que ce type de situation se présente,
-                                    Insight Data vous demandera systématiquement votre consentement pour le test en question. Le consentement que vous donnez n’est valable que pour un test spécifique.                                
+                                    UX DATAHUB vous demandera systématiquement votre consentement pour le test en question. Le consentement que vous donnez n’est valable que pour un test spécifique.                                
                                 </p>
                                 <h5>Droits des personnes concernées et exercices des droits  </h5>
                                 <p>
-                                    Concernant les données personnelles détenues par Insight Data, chaque personne concernée a le droit d'accès, le droit de rectification,
+                                    Concernant les données personnelles détenues par UX DATAHUB, chaque personne concernée a le droit d'accès, le droit de rectification,
                                     le droit à l'effacement, le droit à la limitation du traitement, le droit d'opposition, ainsi que le droit à la portabilité de ces données. 
                                     Ces droits sont explicités ci-après.                                
                                 </p>
                                 <h5>Droit d’accès et droit de rectification </h5>
                                 <p>
-                                    Dans un souci de transparence, de clarté et d’efficacité, Insight Data regroupe vos données personnelles dans votre espace testeurs, section Mon profil.  
+                                    Dans un souci de transparence, de clarté et d’efficacité, UX DATAHUB regroupe vos données personnelles dans votre espace testeurs, section Mon profil.  
                                     <br />
                                     Vous pouvez ainsi accéder librement et à tout moment aux données à caractère personnel que nous détenons sur vous et, le cas échéant, les rectifier.                                
                                 </p>
                                 <h5>Droit à la limitation du traitement et droit d’opposition </h5>
                                 <p>
-                                    Vos données à caractère personnel ne sont pas utilisées par Insight Data à des fins de prospection et ne sont ni cédées ni vendues à quelques tiers que ce soit.
+                                    Vos données à caractère personnel ne sont pas utilisées par UX DATAHUB à des fins de prospection et ne sont ni cédées ni vendues à quelques tiers que ce soit.
                                     <br />
                                     Vos données à caractère personnel ne sont pas non plus transmises à des prestataires dans le but d’être traitées. 
                                     <br />
-                                    Insight Data utilise uniquement les données
+                                    UX DATAHUB utilise uniquement les données
                                     à caractère personnel que vous renseignez lors de votre inscription et dans votre espace testeur ; nous ne collectons pas de données à caractère personnel par
                                     l’intermédiaire de sources externes tierces. 
                                     <br />
-                                    De plus, seul Insight Data traite vos données à caractère personnel, par l’intermédiaire des responsables du
+                                    De plus, seul UX DATAHUB traite vos données à caractère personnel, par l’intermédiaire des responsables du
                                     traitement mentionnés plus haut. 
                                     <br  />
                                     Vos droits à la limitation du traitement et d’opposition ne peuvent donc s’exercer que des manières suivantes : 
                                     <br />
-                                    <span style={{ fontSize :"24px", fontWeight : 900, marginLeft : "1rem"}}>•</span> En retirant votre consentement au traitement de vos données par Insight Data (vous risquez dans ce cas de recevoir moins de tests, ceux-ci étant attribués 
+                                    <span style={{ fontSize :"24px", fontWeight : 900, marginLeft : "1rem"}}>•</span> En retirant votre consentement au traitement de vos données par UX DATAHUB (vous risquez dans ce cas de recevoir moins de tests, ceux-ci étant attribués 
                                     sur la base du profil des testeurs), 
                                     <br />
                                     <span style={{ fontSize :"24px", fontWeight : 900, marginLeft : "1rem"}}>•</span> En supprimant votre compte testeur (dans ce cas vos données sont définitivement perdues).                               
@@ -247,12 +247,12 @@ const ModelPolitique = ({ visiblePolitique, handlePolitique }) => {
                                 </p>
                                 <h5>Politique de sécurité des systèmes d'information   </h5>
                                 <p>
-                                    Insight Data met un point d'honneur à respecter les normes en vigueur et à suivre les avancées dans ce domaine.                        
+                                    UX DATAHUB met un point d'honneur à respecter les normes en vigueur et à suivre les avancées dans ce domaine.                        
                                 </p>
                                 <h5>Services & Sécurité  </h5>
                                 <p>
-                                    Insight Data utilise actuellement un des plus importants acteurs du Cloud dans le monde, GOOGLE, dont la renommée n’est plus à faire, notamment dans la qualité
-                                    de ses propres services qu’ils proposent au monde entier. Ce Cloud est utilisé pour l’ensemble des services liés à l’outil INSIGHT DATA que nous mettons à
+                                    UX DATAHUB utilise actuellement un des plus importants acteurs du Cloud dans le monde, GOOGLE, dont la renommée n’est plus à faire, notamment dans la qualité
+                                    de ses propres services qu’ils proposent au monde entier. Ce Cloud est utilisé pour l’ensemble des services liés à l’outil UX DATAHUB que nous mettons à
                                     disposition de nos clients et de nos utilisateurs testeurs. 
                                     <br />
                                     Cela apporte intrinsèquement une très haute qualité de service ainsi qu’un très bon niveau de
@@ -278,9 +278,9 @@ const ModelPolitique = ({ visiblePolitique, handlePolitique }) => {
                                     Les données venant de la collecte (video, verbatim) ainsi que les données des analyses sont actuellement hébergées
                                     sur des services OVH  localisés en France. Les instances sont placées sur 3 zones possibles en Europe (Belgique, Royaume-Uni, Allemagne).                       
                                 </p>
-                                <h5>Applications Web & Mobile Insight Data  </h5>
+                                <h5>Applications Web & Mobile UX DATAHUB  </h5>
                                 <p>
-                                    Les applications qui sont utilisées pour récolter les données et pour réaliser les analyses sont toutes issues des services d’Insight Data.                       
+                                    Les applications qui sont utilisées pour récolter les données et pour réaliser les analyses sont toutes issues des services d’UX DATAHUB.                       
                                 </p>
                                 <h5>Application WEB / API  </h5>
                                 <p>
@@ -288,12 +288,12 @@ const ModelPolitique = ({ visiblePolitique, handlePolitique }) => {
                                 </p>
                                 <h5>Applications Web & Mobile Client  </h5>
                                 <p>
-                                    Insight Data décline toute responsabilité des applications Web & Mobile de ses clients qui rentrent dans le cadre des analyses commanditées.
+                                    UX DATAHUB décline toute responsabilité des applications Web & Mobile de ses clients qui rentrent dans le cadre des analyses commanditées.
                                 </p>
                                 <h5>Intervenants techniques  </h5>
                                 <p>
-                                    Insight Data a une politique d’accès aux environnements applicatifs. C’est-à-dire, un petit nombre de personnes de confiance faisant partie
-                                    de la société Insight Data sont accrédités pour l’accès à l’environnement de production. Les autres intervenants techniques ont uniquement
+                                    UX DATAHUB a une politique d’accès aux environnements applicatifs. C’est-à-dire, un petit nombre de personnes de confiance faisant partie
+                                    de la société UX DATAHUB sont accrédités pour l’accès à l’environnement de production. Les autres intervenants techniques ont uniquement
                                     des accès à l’environnement de développement, ce dernier environnement ne permettant pas d'accéder aux données des clients et des utilisateurs.
                                     <br />
                                     L'accès à nos bases de données est par ailleurs protégé par un firewall réalisant un filtrage des ip. 
