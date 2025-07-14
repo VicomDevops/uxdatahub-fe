@@ -1,54 +1,9 @@
 import React, { useState } from 'react';
 import { Menu, X, Brain } from 'lucide-react';
 import { LanguageToggle } from './LanguageToggle';
-import { motion } from '@motionone/react';
-
-const LoginModal = ({ isOpen, onClose }) => {
-  if (!isOpen) return null;
-
-  return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-      <motion.div
-        className="bg-white rounded-lg p-6 w-full max-w-md shadow-xl relative"
-        initial={{ opacity: 0, y: -40 }}
-        animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: -40 }}
-        transition={{ duration: 0.3 }}
-      >
-        <button
-          onClick={onClose}
-          className="absolute top-3 right-3 text-gray-500 hover:text-gray-700"
-        >
-          <X className="w-5 h-5" />
-        </button>
-        <h2 className="text-xl font-semibold mb-4">Se connecter</h2>
-        <form className="space-y-4">
-          <input
-            type="email"
-            placeholder="Email"
-            className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-          <input
-            type="password"
-            placeholder="Mot de passe"
-            className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
-          <button
-            type="submit"
-            className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
-          >
-            Connexion
-          </button>
-        </form>
-      </motion.div>
-    </div>
-  );
-};
-
 
 export const Header = ({ content, language, onLanguageChange }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [showLoginModal, setShowLoginModal] = useState(false);
 
   return (
     <>
@@ -83,7 +38,7 @@ export const Header = ({ content, language, onLanguageChange }) => {
             <div className="hidden md:flex items-center space-x-4">
               <LanguageToggle currentLanguage={language} onLanguageChange={onLanguageChange} />
               <button
-                onClick={() => setShowLoginModal(true)}
+                onClick={() => window.location.href = '/login'}
                 className="text-gray-600 hover:text-blue-600 transition"
               >
                 {content.nav.login}
@@ -123,7 +78,7 @@ export const Header = ({ content, language, onLanguageChange }) => {
                 </a>
                 <hr className="border-gray-200" />
                 <button
-                  onClick={() => setShowLoginModal(true)}
+                  onClick={() => window.location.href = '/login'}
                   className="text-gray-600 hover:text-blue-600 transition text-left"
                 >
                   {content.nav.login}
@@ -136,9 +91,6 @@ export const Header = ({ content, language, onLanguageChange }) => {
           )}
         </div>
       </header>
-
-      {/* Modal */}
-      <LoginModal isOpen={showLoginModal} onClose={() => setShowLoginModal(false)} />
     </>
   );
 };
