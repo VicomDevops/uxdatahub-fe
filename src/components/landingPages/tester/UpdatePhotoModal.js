@@ -24,7 +24,7 @@ const UpdatePhotoModal = ({
   const [image, setImage] = useState(null);
   const [error, setError] = useState("");
   const [valid, setValid] = useState("");
-  const domain = 'https://api-prex.insightdata.fr/2m';
+  const domain = 'http://uxdatahub.com/2m';
   const imgUri = user?.data?.profileImage?.split("2m")
   const imageUrl = imgUri && domain.concat(imgUri[1])
   const onchangeFile = (e) => {

@@ -557,7 +557,7 @@ class TesterAnalyzes extends React.Component {
     render() {
         const { btn2, dataMoyChart, dataEcartChart, dataAv, skeleton, header, duration, cliqueEtape, score } = this.state
     
-        const domain = 'https://api-prex.insightdata.fr/2m'
+        const domain = 'http://uxdatahub.com//2m'
         const videoEtapUri = this.state.videoEtap?.split("2m")
         const videoEtapUrl = videoEtapUri && domain.concat(videoEtapUri[1])
         let dataAvSorted = dataAv?.datasets && dataAv?.datasets[0]?.data?.sort((a, b) => a - b)

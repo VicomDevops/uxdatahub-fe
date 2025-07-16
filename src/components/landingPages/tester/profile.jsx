@@ -22,7 +22,7 @@ const Profile = () => {
   const [visible, setVisible] = useState(false);
   const [visibleModalPhoto, setVisibleModalPhoto] = useState(false);
   const [visibleModalSupprimerCompte, setVisibleModalSupprimerCompte] = useState(false);
-  const domain = 'https://api-prex.insightdata.fr/2m';
+  const domain = 'http://uxdatahub.com/2m';
   const imgUri = user?.data?.profileImage?.split("2m")
   const imageUrl = imgUri && domain.concat(imgUri[1])
 

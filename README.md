@@ -72,7 +72,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 14.21.3
 
 ### Serveur backend
-/*"URL_API": "https://api-prex.insightdata.fr",*/
+/*"URL_API": "http://uxdatahub.com/",*/
 
 
 
